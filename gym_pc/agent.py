@@ -1,4 +1,16 @@
-import gym
+import pytesseract
+import random
+
+from gym_pc.envs import LinuxEnv
+
+if __name__ == '__main__':
+    env = LinuxEnv()
+    while True:
+        action = random.choice(["test", "asdf"])
+        img, reward, _, _ = env.step(action)
+        # env.render()
+        wrd = pytesseract.image_to_string(img, lang="eng", config="--psm 4 --oem 3 -c tessedit_char_whitelist=command")
+        print('Action: ' + action + ', Reward: ' + str(reward))
 
 # import pytesseract
 # import unicodedata
