@@ -22,8 +22,9 @@ if __name__ == '__main__':
         if p > epsilon:
             action_index = np.argmax(q_list)
         else:
-            action_index = np.random.choice(np.arange(len(COMMAND_LIST)),p=q_list/sum(n_list))
-        img, reward, _, _ = env.step(COMMAND_LIST[action_index])
+            action_index = np.random.choice(np.arange(len(COMMAND_LIST)),p= q_list/sum(q_list))
+        action = COMMAND_LIST[action_index].rstrip('\n')
+        img, reward, _, _ = env.step(action)
         n_list[action_index] += 1
         q_list[action_index] = q_list[action_index] + (reward - q_list[action_index])/n_list[action_index]
         # env.render()

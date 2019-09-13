@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a4dbc56-2ab4-4965-9b22-2752a432b407" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gym_pc/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gym_pc/envs/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gym-pc/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gym-pc/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/gym_pc/agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gym-pc/envs/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gym-pc/envs/linux_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/gym_pc/envs/linux_env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gym_pc/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/gym_pc/agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gym_pc/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gym_pc/commands.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +113,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568356870625</updated>
-      <workItem from="1568356871861" duration="14342000" />
+      <workItem from="1568356871861" duration="15636000" />
     </task>
     <task id="LOCAL-00001" summary="fix observation">
       <created>1568358747893</created>
@@ -142,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568360326526</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="working">
+      <created>1568390659307</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568390659307</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +153,8 @@
     <MESSAGE value="fix observation" />
     <MESSAGE value="add testing instructions" />
     <MESSAGE value="update testing instructions" />
-    <option name="LAST_COMMIT_MESSAGE" value="update testing instructions" />
+    <MESSAGE value="working" />
+    <option name="LAST_COMMIT_MESSAGE" value="working" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1491" y="456" width="374" height="570" key="#com.intellij.ide.util.MemberChooser" />
@@ -175,9 +177,9 @@
     <state width="1354" height="318" key="GridCell.Tab.1.right/5280.2560" />
     <state x="0" y="270" width="900" height="738" key="SettingsEditor" />
     <state x="0" y="270" width="900" height="738" key="SettingsEditor/5280.2560" />
-    <state x="1430" y="514" width="800" height="534" key="Vcs.Push.Dialog.v2" />
+    <state x="1430" y="506" width="800" height="534" key="Vcs.Push.Dialog.v2" />
     <state x="1120" y="514" key="Vcs.Push.Dialog.v2/3840.2160" />
-    <state x="1430" y="514" width="800" height="534" key="Vcs.Push.Dialog.v2/5280.2560" />
+    <state x="1430" y="506" width="800" height="534" key="Vcs.Push.Dialog.v2/5280.2560" />
     <state x="23" y="281" width="672" height="678" key="search.everywhere.popup" />
     <state x="23" y="281" width="672" height="678" key="search.everywhere.popup/5280.2560" />
   </component>
@@ -193,7 +195,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/gym_pc$agent.coverage" NAME="agent Coverage Results" MODIFIED="1568390061700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gym_pc" />
+    <SUITE FILE_PATH="coverage/gym_pc$agent.coverage" NAME="agent Coverage Results" MODIFIED="1568393380190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gym_pc" />
     <SUITE FILE_PATH="coverage/gym_pc$linux_env.coverage" NAME="linux_env Coverage Results" MODIFIED="1568358563029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gym-pc/envs" />
   </component>
 </project>
