@@ -2,6 +2,8 @@ import gym
 import time
 import docker
 from vncdotool import api
+from PIL import Image
+import pytesseract
 
 
 class LinuxEnv(gym.Env):
@@ -55,10 +57,12 @@ class LinuxEnv(gym.Env):
             for k in str(action):
                 self.vnc_client.keyPress(k)
             self.vnc_client.keyPress("enter")
+            self.vnc_client.captureScreen('screenshot.png')
             time.sleep(1.0)
-            ob = self.vnc_client.screen
+            ob = Image.open('screenshot.png')
         except TimeoutError:
             episode_over = True
+
         return ob, reward, episode_over, {}
 
     def reset(self):
@@ -66,10 +70,13 @@ class LinuxEnv(gym.Env):
         self.vnc_client.disconnect()
 
     def render(self, mode='human', close=False):
-        pass
+        img.show()
 
 
 if __name__ == '__main__':
     env = LinuxEnv()
     while True:
-        env.step("test")
+        img, _, _, _ = env.step("test")
+        env.render()
+        wrd = pytesseract.image_to_string(img, lang="eng", config="--psm 4 --oem 3 -c tessedit_char_whitelist=command")
+        # print(wrd)

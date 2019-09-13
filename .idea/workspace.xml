@@ -1,21 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a4dbc56-2ab4-4965-9b22-2752a432b407" name="Default Changelist" comment="" />
+    <list default="true" id="4a4dbc56-2ab4-4965-9b22-2752a432b407" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gym-pc/envs/linux_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/gym-pc/envs/linux_env.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1QltAwm0lllSQyRmsqU6KQnMcSf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -74,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568356870625</updated>
-      <workItem from="1568356871861" duration="757000" />
+      <workItem from="1568356871861" duration="1695000" />
     </task>
     <servers />
   </component>
@@ -92,8 +107,27 @@
     <state width="1354" height="258" key="GridCell.Tab.0.left/5280.2560" />
     <state width="1354" height="258" key="GridCell.Tab.0.right" />
     <state width="1354" height="258" key="GridCell.Tab.0.right/5280.2560" />
+    <state width="1354" height="318" key="GridCell.Tab.1.bottom" />
+    <state width="1354" height="318" key="GridCell.Tab.1.bottom/5280.2560" />
+    <state width="1354" height="318" key="GridCell.Tab.1.center" />
+    <state width="1354" height="318" key="GridCell.Tab.1.center/5280.2560" />
+    <state width="1354" height="318" key="GridCell.Tab.1.left" />
+    <state width="1354" height="318" key="GridCell.Tab.1.left/5280.2560" />
+    <state width="1354" height="318" key="GridCell.Tab.1.right" />
+    <state width="1354" height="318" key="GridCell.Tab.1.right/5280.2560" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/gym_pc$linux_env.coverage" NAME="linux_env Coverage Results" MODIFIED="1568357488439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gym-pc/envs" />
+    <SUITE FILE_PATH="coverage/gym_pc$linux_env.coverage" NAME="linux_env Coverage Results" MODIFIED="1568358563029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gym-pc/envs" />
   </component>
 </project>
