@@ -23,4 +23,11 @@ First, start a container: `docker run -it --rm -p 6080:80 -p 5900:5900 breandan/
 
 Then visit: [http://127.0.0.1:6080/](http://127.0.0.1:6080/) and manually open the terminal window.
 
-Then, on your local machine run, `python gym-pc/envs/linux_env.py`
+Then, on your local machine run the following: 
+
+```
+git clone https://github.com/breandan/gym-pc && \
+    cd gym-pc && \
+    pip3 install . && 
+    python3 gym-pc/envs/linux_env.py`
+```

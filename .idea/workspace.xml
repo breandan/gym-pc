@@ -87,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568356870625</updated>
-      <workItem from="1568356871861" duration="1963000" />
+      <workItem from="1568356871861" duration="2325000" />
     </task>
     <task id="LOCAL-00001" summary="fix observation">
       <created>1568358747893</created>
@@ -96,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568358747893</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add testing instructions">
+      <created>1568359000108</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568359000108</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,7 +111,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix observation" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix observation" />
+    <MESSAGE value="add testing instructions" />
+    <option name="LAST_COMMIT_MESSAGE" value="add testing instructions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1491" y="456" width="374" height="570" key="#com.intellij.ide.util.MemberChooser" />
@@ -125,8 +133,8 @@
     <state width="1354" height="318" key="GridCell.Tab.1.left/5280.2560" />
     <state width="1354" height="318" key="GridCell.Tab.1.right" />
     <state width="1354" height="318" key="GridCell.Tab.1.right/5280.2560" />
-    <state x="1430" y="538" width="800" height="534" key="Vcs.Push.Dialog.v2" />
-    <state x="1430" y="538" width="800" height="534" key="Vcs.Push.Dialog.v2/5280.2560" />
+    <state x="1430" y="522" width="800" height="534" key="Vcs.Push.Dialog.v2" />
+    <state x="1430" y="522" width="800" height="534" key="Vcs.Push.Dialog.v2/5280.2560" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
