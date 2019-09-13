@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a4dbc56-2ab4-4965-9b22-2752a432b407" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gym-pc/envs/linux_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/gym-pc/envs/linux_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,12 +87,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568356870625</updated>
-      <workItem from="1568356871861" duration="1695000" />
+      <workItem from="1568356871861" duration="1963000" />
     </task>
+    <task id="LOCAL-00001" summary="fix observation">
+      <created>1568358747893</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568358747893</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix observation" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix observation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1491" y="456" width="374" height="570" key="#com.intellij.ide.util.MemberChooser" />
@@ -115,6 +125,8 @@
     <state width="1354" height="318" key="GridCell.Tab.1.left/5280.2560" />
     <state width="1354" height="318" key="GridCell.Tab.1.right" />
     <state width="1354" height="318" key="GridCell.Tab.1.right/5280.2560" />
+    <state x="1430" y="538" width="800" height="534" key="Vcs.Push.Dialog.v2" />
+    <state x="1430" y="538" width="800" height="534" key="Vcs.Push.Dialog.v2/5280.2560" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
