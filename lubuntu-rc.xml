@@ -1,0 +1,5 @@
+<applications>
+	<application class="LXTerminal" name="LXTerminal">
+		<fullscreen>yes</fullscreen>
+	</application>
+</applications>

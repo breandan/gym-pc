@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=LXTerminal
+Comment=Edit text files in a console using Vim
+Exec=lxterminal
+Terminal=false
+Type=Application
+Icon=lxterminal
+Categories=Application;Utility;TextEditor;
+StartupNotify=true
+MimeType=text/plain;
+NoDisplay=true
