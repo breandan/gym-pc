@@ -1,15 +1,19 @@
 # gym-pc
 
-Personal Computing Environment for OpenAI Gym. Teach a computer to use a computer like a human uses a computer.
+Personal Computing Environment for [OpenAI Gym](https://gym.openai.com).
 
-## Usage
+## Installation
 
 Prerequisites: 
 
-* Docker
-* Python
+* [Docker](https://docs.docker.com/install/)
+* [Python 3+](https://www.python.org/downloads/)
 
 Install via `pip install .`
+
+## Usage
+
+To use `gym-pc`, first import it and make an environment.
 
 ```
 import gym
@@ -17,20 +21,13 @@ import gym_pc
 env = gym.make('GymPC-Ubuntu')
 ```
 
+An [example agent](gym_pc/agent.py) is provided.
+
 ## Testing
 
 First, start a container: `docker run -it --rm -p 6080:80 -p 5900:5900 breandan/ubuntuvnc`
 
 Then visit: [http://127.0.0.1:6080/](http://127.0.0.1:6080/) and manually open the terminal window.
-
-Then, on your local machine run the following commands: 
-
-```
-git clone https://github.com/breandan/gym-pc && \
-    cd gym-pc && \
-    pip3 install . && \
-    python3 gym-pc/envs/linux_env.py`
-```
 
 ## Citation
 
