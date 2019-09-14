@@ -1,10 +1,10 @@
-import gym
 import time
+
 import docker
+import gym
 import requests
-from vncdotool import api
 from PIL import Image
-import pytesseract
+from vncdotool import api
 
 
 class LinuxEnv(gym.Env):
