@@ -1,3 +1,4 @@
+import sys
 import time
 
 import docker
@@ -15,7 +16,7 @@ class LinuxEnv(gym.Env):
         try:
             self.container = self.docker_client.containers.run(
                 "breandan/ubuntuvnc",
-                ports={'6080/tcp': 80, '5900/tcp': 5900},
+                ports={'8000/tcp': 8000, '6080/tcp': 80, '5900/tcp': 5900},
                 remove=True,
                 detach=True)
         except:
@@ -58,19 +59,28 @@ class LinuxEnv(gym.Env):
             for k in str(action):
                 self.vnc_client.keyPress(k)
             self.vnc_client.keyPress("enter")
-            exit_code = requests.get("http://localhost:8000/exit_code.txt").text
+            i = 0
+            exit_code = 0
+            while i < 20:
+                try:
+                    exit_code = int(requests.get("http://localhost:8000/exit_code.txt").text)
+                    break
+                except:
+                    time.sleep(1.0)
+                    i += 1
             reward = self.get_reward_from_exit_code(exit_code)
             self.vnc_client.captureScreen('screenshot.png')
             time.sleep(1.0)
             ob = Image.open('screenshot.png')
-        except:
+        except Exception as e:
+            print(str(e))
             episode_over = True
 
         return ob, reward, episode_over, {}
 
     @staticmethod
     def get_reward_from_exit_code(code):
-        if int(code) == 0:
+        if code == 0:
             return 1
         else:
             return 0

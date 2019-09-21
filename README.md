@@ -25,7 +25,7 @@ An [example agent](gym_pc/agent.py) is provided.
 
 ## Testing
 
-First, start a container: `docker run -it --rm -p 6080:80 -p 5900:5900 breandan/ubuntuvnc`
+First, start a container: `docker run -it --rm -p 8000:8000 -p 6080:80 -p 5900:5900 breandan/ubuntuvnc`
 
 Then visit: [http://127.0.0.1:6080/](http://127.0.0.1:6080/) and manually open the terminal window.
 
